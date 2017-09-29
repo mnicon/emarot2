@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> boostrap2 final </title>
+	<!-- nicher link ta mobile er jonno -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+	<!-- Font Awesome : https://www.bootstrapcdn.com/fontawesome/ -->
+
+	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified CSS : jate Boostrap kaj kore ?-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- amar CSS page er link ta -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--ami nije nije loichi: https://sorgalla.com/lity/  Lity is a ultra-lightweight, accessible and responsive lightbox plugin which supports images, iframes and inline content out of the box. -->
+    <!-- Lity start -->
+    <link href="dist/lity.css" rel="stylesheet">
+    <script src="vendor/jquery.js"></script>
+    <script src="dist/lity.js"></script>
+    <!-- Lity end -->
+
+
+    
+<!-- wow animate style : http://mynameismatthieu.com/WOW/docs.html -->
+<link rel="stylesheet" href="animate.min.css">
+<!-- end google map style -->
+
+<!-- test for textanimation -->
+ <style type="text/css">
+      .animated   h1 {
+            -moz-animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+
+                 -moz-animation-delay: 0s;
+                -webkit-animation-delay:0s;
+                /*animation-iteration-count: infinite;*/
+
+            -moz-animation-name:flip;
+            -webkit-animation-name: flip ;
+         }
+
+
+
+
+      .animated h3 {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+
+             -moz-animation-delay: 0s;
+              -webkit-animation-delay:0s;
+              /*animation-iteration-count: infinite;*/
+
+            -moz-animation-name:flip;
+            -webkit-animation-name: flip ;
+         }
+
+         @-moz-keyframes flip {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes flip {
+            from {
+               margin-left:100%;
+               width:300%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+          }
+        </style>
+<!-- end header home page er animation  -->
+
+  <!-- /*our service icon er animaton kintu kaj korteche na*/ -->
+ 
+ <style type="text/css">
+  .animated_ourproduct fa-arrow-down {
+            -moz-animation-duration: 2s;
+            -webkit-animation-duration: 2s;
+            -moz-animation-name:flip;
+            -webkit-animation-name: flip ;
+}
+ @-moz-keyframes flip {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes flip {
+            from {
+               margin-left:100%;
+               width:300%;
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+          }
+        </style>
+
+<!-- /*end our service with icon animation*/ -->
+
+
+</head>
+
+<body>
+ 
+  <!-- end animation -->
+
+  
+
+<!-- niche script ta file open working partner er -->
+<!-- // Not UX-tested buttons -->
+<!-- end script ta file open working partner er -->
+<!-- new navbar start -->
+
+<!-- <nav class="navbar navbar-inverse" navbar-fixed-top"> -->
+<!-- navbar -->
+<nav class="navbar navbar-inverse  navbar-fixed-top"> 
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display  -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       
+      </button>
+      <a class="navbar-brand " href="#"><h2> Emarot Enterprise <h2></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+     
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Hotline 01710-885475</a></li>
+        
+    </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
+<!-- end navar -->
+
+<!-- header section -->
+ <section class="header_section">
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+
+        <div class="header_body"> <!--boostrap er khetre CSS kore jehetu Text & button take middle e ana jaiteche na shay karone arek ta div nilam & shay take absolite & relative kore text gulo middle e anbo-->
+
+        
+         <div class="header_content">
+
+       <div class="animated"> 
+                    <h1> <font color="white"> Emarot Nirman Shamogree </br></font></h1> 
+            <h3>Developing more successful relations with potential clients.</br></h3>
+                       <hr> 
+                       <i class="fa fa-map-marker fa-2x" style="color:black" aria-hidden="true"></i>
+                      <p> Ghodarbag keranigonj   </p>  
+        </div> 
+        </div>
+ 
+
+           <!-- <hr> -->
+           <!-- <h4>Start Bootstrap can help you build better websites using the Bootstrap CSS framework!</br> Just download your template and start going, no strings attached!</h4> -->
+          <!-- </div> -->
+
+          <!--<button class="btn btn-lg">FIND OUT MORE</button>-->
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+        
+<!-- End header section with navbar-->	
+
+<!-- start 3d image body -->
+<section class="image_3d">
+  <div class="container">
+    <div class="row">
+
+       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+        
+         </div>
+      
+    </div>
+    
+  </div>
+  
+</section>
+<!-- end 3d image body -->
+
+<!-- our products start -->
+<section class="icon_text">
+  <div class="row">
+
+       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+       <div class="animated_ourproduct">
+
+        <h2> Our products </h2>
+         <i class=" fa fa-arrow-down fa-4x"  style="color:green " aria-hidden="true"></i>
+          <i class="fa fa-arrow-down fa-4x" style="color: red" aria-hidden="true"></i>
+           <i class="fa fa-arrow-down fa-4x" style="color: green" aria-hidden="true"></i>
+      
+      </div>
+      </div>
+      
+    </div>
+  
+</section>
+
+
+<!-- end our products -->
+
+
+<!-- start our service -->
+<section class="our_service">
+  <div class="container_fluid">
+    <div class="row">
+       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+        <div class="service_image">
+          <img class="img-responsive img-fluid" src="image/web7.jpg" alt="Emarot Enterprise">
+       </div>
+       </div>
+     </div>
+   </div>
+ </section>
+<!-- end our service -->
+
+<!-- image categories project section -->
+<!-- https://www.youtube.com/watch?v=dUvhUqToHEY aikhan theke study --><!--
+
+<section class="project_section">
+  <div class="container-fluid">
+  <div class="row no-gutter popup-galery ">
+
+        
+        <div class="project_section_body">
+
+
+             
+             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+             <div class="single-portfolio">
+    
+                <img class="img-responsive" src="image/1.jpg"  alt="Nicon"> 
+
+             <div class="text_overlay">
+
+                  <h2>Project Name</h2>
+                  <p class="info"> I am a web developer. </br> <a href="https://www.facebook.com/niconn" target="_blank"></a> READ MORE </p>
+                 
+              </div>
+             </div>
+         </div> 
+
+
+           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+             <div class="single-portfolio">
+
+               <img class="img-responsive" src="image/2.jpg" alt="image2">
+                
+                <div class="text_overlay">
+                   <h2>Project Name</h2>
+                   <p class="info">I am a web developer. </br> <a href="https://www.facebook.com/niconn"></a> READ MORE</p>
+                   
+                </div>
+            </div>
+           </div>
+
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+             <div class="single-portfolio">
+
+               <img class="img-responsive" src="image/3.jpg" alt="image3">
+
+              <div class="text_overlay"> 
+                <h2>Project Name</h2>
+               <p class="info"> I am a web developer.</br> <a href="https://www.facebook.com/niconn"></a> READ MORE </p>
+                
+              </div>
+
+            </div> 
+        </div> 
+                     <!-- 2 line images test 
+
+
+     
+
+         <div class="row no-gutter ">
+             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+             <div class="single-portfolio">
+    
+                <img class="img-responsive" src="image/4.jpg" alt="Nicon">
+
+             <div class="text_overlay">
+
+                  <h2>Project Name</h2>
+                  <p class="info"> I am a web developer. </br> <a href="https://www.facebook.com/niconn" target="_blank"></a> READ MORE </p>
+                 
+              </div>
+             </div>
+         </div> 
+
+
+           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+             <div class="single-portfolio">
+
+               <img class="img-responsive" src="image/5.jpg" alt="image2">
+                
+                <div class="text_overlay">
+                   <h2>Project Name</h2>
+                   <p class="info">I am a web developer. </br> <a href="https://www.facebook.com/niconn"></a> READ MORE</p>
+                   
+                </div>
+            </div>
+           </div>
+
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+             <div class="single-portfolio">
+
+               <img class="img-responsive" src="image/6.jpg" alt="image3">
+
+              <div class="text_overlay"> 
+                <h2>Project Name</h2>
+               <p class="info"> I am a web developer.</br> <a href="https://www.facebook.com/niconn"></a> READ MORE </p>
+                
+              </div>
+              </div>
+            </div> 
+            </div>
+         </div> 
+      </div>            end 2 line er images -->
+  <!-- </div> -->
+   <!-- </div> -->
+   <!-- </div> -->
+ <!-- </div> -->
+<!-- </section> --> 
+
+
+
+<!-- start project  image project section -->
+ <div class="container_fluid">
+<div class='row'>
+
+
+<em>Images of Water With Grid</em>
+
+  <div class='row'>
+    <div class='col-sm-3'>
+      <img class='img-responsive' src='image/web5.jpg' alt="">
+    </div>
+    <div class='col-sm-3'>
+      <img class='img-responsive' src='image/web5.jpg' alt="">
+    </div>
+    <div class='col-sm-3'>
+      <img class='img-responsive' src='image/web5.jpg' alt="">
+    </div>
+
+    <div class='col-sm-3'>
+      <img class='img-responsive' src='image/web5.jpg' alt="">
+    </div>
+
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<!-- end download section -->
+
+<!-- Get In Touch! section -->
+
+<section class="Contact_section">
+ <div class="container">
+   <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+    <div class="content_body">
+
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="content_text">
+          <h2>Let's Get In Touch!</h2>
+         <hr>
+          <p>Ready to start your next project with us? That's great! Give us a call or send us an email</br> and we will get back to you as soon as possible!</p>
+      </div>
+      </div>
+
+      <div class="row" >
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-sm-offset-2"> 
+ 
+ <div class="Contact">
+ 
+ 
+        <div class="info">
+            <i class="fa fa-phone fa-4x" aria-hidden="true"></i>
+            <p> +33643882613</p>
+      </div>
+     
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-sm-offset-2 "> 
+
+        <div class="info">
+             <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+             <p> <a href="mailto:mniconfr@gmail.com"> Email </p>
+        </div>  
+                            
+          </div>        
+          </div> 
+         </div>
+        </div>
+    </div>
+   </div>
+ </div>
+</section>
+<!-- End Get In Touch! section -->
+
+<!-- start google map section -->
+
+
+
+
+ <div id="map"></div>
+    <script>
+      function initMap() {
+
+        // Create a new StyledMapType object, passing it an array of styles,
+        // and the name to be displayed on the map type control.
+        var styledMapType = new google.maps.StyledMapType(
+            [
+              {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
+              {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
+              {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+              {
+                featureType: 'administrative',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#c9b2a6'}]
+              },
+              {
+                featureType: 'administrative.land_parcel',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#dcd2be'}]
+              },
+              {
+                featureType: 'administrative.land_parcel',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#ae9e90'}]
+              },
+              {
+                featureType: 'landscape.natural',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#93817c'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'geometry.fill',
+                stylers: [{color: '#a5b076'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#447530'}]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [{color: '#f5f1e6'}]
+              },
+              {
+                featureType: 'road.arterial',
+                elementType: 'geometry',
+                stylers: [{color: '#fdfcf8'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry',
+                stylers: [{color: '#f8c967'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#e9bc62'}]
+              },
+              {
+                featureType: 'road.highway.controlled_access',
+                elementType: 'geometry',
+                stylers: [{color: '#e98d58'}]
+              },
+              {
+                featureType: 'road.highway.controlled_access',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#db8555'}]
+              },
+              {
+                featureType: 'road.local',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#806b63'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#8f7d77'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'labels.text.stroke',
+                stylers: [{color: '#ebe3cd'}]
+              },
+              {
+                featureType: 'transit.station',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'geometry.fill',
+                stylers: [{color: '#b9d3c2'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#92998d'}]
+              }
+            ],
+            {name: 'Styled Map'});
+
+        // Create a map object, and include the MapTypeId to add
+        // to the map type control.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 55.647, lng: 37.581},
+          zoom: 11,
+          mapTypeControlOptions: {
+            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                    'styled_map']
+          }
+        });
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('styled_map', styledMapType);
+        map.setMapTypeId('styled_map');
+      }
+
+    </script>
+      
+      <!-- nicher link ta google map personilaziction er jonno  https://mapstyle.withgoogle.com/ -->
+    <script >
+      [ { "featureType": "administrative.country", "elementType": "geometry.fill", "stylers": [ { "visibility": "on" } ] }, { "featureType": "landscape.natural.landcover", "elementType": "geometry.fill", "stylers": [ { "visibility": "on" } ] }, { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [ { "visibility": "on" } ] } ]
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwh9XuU_cWKtzjqNWG325cKaU0pb1uDEs=initMap">
+    </script>
+
+<!-- end google map section -->
+
+<!-- jQuery library (served from Google)  ai ta WoW er jonno newa hoyche-->
+<script src="http//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+
+
+  <!-- wow animate cssq start: http://mynameismatthieu.com/WOW/docs.html  -->
+  <script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<!-- end wow animeted end -->
+
+ <!-- nichere link 2 ta mobile verson er jonno, menu gulo jate open hoyor nicher dike name -->
+<!-- jquery https://code.jquery.com/ New version ta nite hobe -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+   
+
+   <!-- Latest compiled and minified JavaScript : https://getbootstrap.com/docs/3.3/getting-started/-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- google maps script -->
+  
+
+<!-- end google maps script -->
+ 
+</body>	
+</html>
+
+<!-- note: .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+} -->

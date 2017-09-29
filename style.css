@@ -1,0 +1,938 @@
+.navbar{
+  border-radius: 0;
+  margin:0;
+ max-height: 70px;
+ position: relative;
+}
+.navbar-brand a{
+  /*margin: 0;*/
+
+}
+
+.navbar-brand h2 {
+  margin: 0;
+  position: absolute;
+ 
+   left:5%;
+   top: 50%;
+   transform: translate(-20%,-50%);
+}
+
+.navbar-nav ul, li{
+  margin: 0;
+ 
+   /*right: :20%;*/
+   /*top: 80%;*/
+   transform: translate(-10%, -35%);
+
+}
+.navbar-right ul, li{
+  right: 30%
+ 
+ 
+   
+}
+
+/*end navbar*/
+
+/*header section*/
+
+.header_section{
+  margin: 0;
+  padding: 0;
+    width: 100%;
+	  height:100vh;
+	/*background: url("https://mdbootstrap.com/images/regular/city/img%20(17).jpg")no-repeat*/
+	background-image: url(image/header2-.jpg) ;
+	
+  
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/*question : image ta keno  full difplay korteche na ? main page tar moto */
+}
+
+.header_body{
+  margin: 0;
+	width: 100%;
+	height:100vh;
+	position: relative;
+
+}
+
+.header_content{
+   color: white;
+   /*border: 2px solid red;*/
+   position: absolute;
+   left:50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+
+}
+
+ /*end header section*/
+
+
+/*start aboutus_header section*/
+
+
+.image_3d {
+  margin-top:0px;
+  padding: 10px;
+  width: 100%;
+  height: 20vh;
+  /*height: 30vh;*/
+
+background-image: url("image/body2.jpg");
+background-color: black;
+
+
+  /*height*/
+  min-height: 125px;
+  /*scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: auto auto;
+  position: relative;
+}
+/*end*/
+
+/*icon text section start*/
+.icon_text {
+  margin:0;
+  width: 100%;
+  height: 15vh;
+  position: relative;
+
+}
+
+.animated_ourproduct{
+   margin: 0px;
+  width: 100%;
+  height: 15vh;
+  
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+
+  background-color: black;
+}
+
+
+.animated_ourproduct .fa-arrow-down {
+   /*margin-left: 100px;*/
+   margin: 0;
+   margin-bottom: 20px;
+   display: inline block;
+   margin-left: auto;
+   margin-right: auto;
+   /*nicher ta hochee icon er */
+   padding: 16px;
+   /*float: right;*/
+   
+   /*transform: translate(-58%, -18%);*/
+}
+.animated_ourproduct h2{
+  margin:0;
+  margin-top: 5px;
+  color: white;
+  font-size:30px bolder;
+  /*border: 2px solid red;*/
+  
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*icon text section end*/
+
+
+
+/*our service start*/
+.our_service{
+  margin-top: 20;
+  padding: 10;
+  width: 100;
+  height: 57vh;
+  
+}
+.service_image{
+  margin: 0;
+  padding: 0;
+  height: 57vh;
+ 
+}
+
+.service_image img{
+ 
+margin: 0px;
+margin-left: 0;
+position: absolute;
+
+  -moz-box-shadow: 1px 10px 10px 8px     #ff4d4d;
+-webkit-box-shadow: 1px 10px 10px 8px      #ff4d4d;
+-o-box-shadow: 1px 10px 10px 8px     #ff4d4d;
+box-shadow: 1px 10px 10px 8px    #ff4d4d;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=   #ff4d4d, Direction=174, Strength=10); 
+}
+
+.service_image img{
+  -webkit-filter: grayscale(1);
+  cursor: pointer;
+  transition: all .6s ease;
+}
+.service_image img:hover{
+  -webkit-filter: grayscale(-0);
+  transform: scale(1.2,1.2);
+}
+
+
+
+
+
+
+/*end our service*/
+
+/*start image categories project section */
+
+.container_fluid{
+	margin: 0;
+	padding: 0;
+
+  width: 100%;
+  height: 60vh;
+
+
+}
+
+/*nicher img function ta kaj korteche na*/
+em{
+  margin: 20;
+display: right;
+
+color:green;
+text-align: center;
+font-family: sans-serif;
+font-size: 30px;
+border: 2px solid red;
+
+
+}
+
+
+
+
+.row-no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+   padding: 10px;
+   margin: 10px;
+   marker-bottom: 10px;
+   margin-top: 10px;
+}
+
+
+/*.row-no-gutter [class*="col-"] {*/
+  padding-right: 0;
+  padding-left: 0;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+/*end image galary*/
+
+
+
+/*copy kora*/
+/*.single-portfolio a {*/
+  /*display: block;*/
+  /*line-height: 0;*/
+  /*position: relative;*/
+}
+/*.single-portfolio a::before {*/
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(0.5);
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+/*.single-portfolio:hover a::before {*/
+	opacity: .5;
+	transform: scale(1);
+}
+/*.single-portfolio a::after {*/
+  color: #fff;
+  content: "+";
+  font-size: 60px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+/*.single-portfolio:hover a::after {*/
+	transform: scale(1);
+}
+/*copy kora*/
+
+}
+/*.single-portfolio .text_overlay {*/
+	/*width ta 110% dilam karon image er modde overlay ta fuul vabe howar jonno , image er upor*/
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  /*nicher background-color: rgba(75,75,75,0.7) er madhome background image ta ektu dekha jay */
+  background-color: rgba(75,75,75,0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+
+}
+
+/*.single-portfolio:hover .text_overlay {*/
+  background-color: rgba(48, 152, 157, 0.4);
+}
+
+
+/*.single-portfolio h2 {*/
+	margin: 0;
+  text-transform: uppercase;
+  color:rgb(240, 95, 64) ;
+  text-align: center;
+
+  position: relative;
+  font-size: 18px;
+  padding: 10px;
+  background: rgba(38, 38, 38);  /* ai function ta hoylo Project Name er background animation*/
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/*.single-portfolio:hover h2 {*/
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  margin:0px;
+}
+/*hovereffect p.info chiloniche ami shudhu overlay add kore chi ki obosta dekhar jonno */
+/*.text_overlay p.info {*/
+  display: inline-block;
+  text-decoration: none;
+  padding: 90px 14px;
+  /*text-transform: uppercase;*/
+  color: #f05f40;
+  /*border: 1px solid #fff;*/
+  background-color: rgb(235, 56, 18);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: 700;
+  /*nicher margin ta 40px je ta image er upor <p> text gulo ache shay tar back ground colour*/
+  margin: 40px;
+  color: #800000;
+  font-size: 20px;
+  color: rgb(255, 255, 255) 
+}
+
+/*.single-portfolio:hover p.info {*/
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+
+
+/*.single-portfolio p.info:hover {*/
+  /*box-shadow: 0 0 5px #fff;*/
+}
+*/
+
+
+/*nicher no-gutters er code ta 
+:https://julienmelissas.com/no-gutter-column-trick-for-bootstrap/*/
+
+
+}
+/*End  image categories project section */
+
+/*boostrap download section*/
+
+/*start get in tuch section*/
+.Contact_section{
+  width: 100%;
+  height: 45vh;
+  margin: 0;
+  background-color: white;
+}
+.content_body{
+
+   margin: 0;
+   width: 100%;
+    height: 45vh;
+    position: relative;
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+   padding-right: 15px;
+   padding-left: 15px;
+box-shadow:inset 0 0 1em white, 0 0 2em grey;
+
+} 
+
+.content_text{
+
+   /*border: 2px solid red;*/
+   position: absolute;
+   position: relative;
+   text-align: center;
+
+}
+.content_text h1{
+  margin: 0;
+  font-family: sans-serif;
+
+}
+.content_text hr{
+
+   border-color: #f05f40;
+  max-width: 45px;
+  border-width: 3px;
+  margin: 30px auto;  
+  overflow: visible;
+
+}
+
+.content_text p{
+  margin: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.Contact{
+ 
+  font-size: 15px;
+  font-family: sans-serif;
+  display: inline-flex;
+  text-align: center !important;
+  /*border: 2px solid green;*/
+  position: absolute;
+ transform: translateX(100px);
+ left:45%;
+ margin-top: 20px;
+
+ 
+  }
+  .info {
+
+    display: inline-block;
+    }
+   .info p a{
+    margin: 0;
+    color: black;
+    text-decoration: none;
+
+   }
+   .info:hover{
+     opacity: 0.8;
+     transform: scale(1.5);
+
+   }
+   .info .fa {
+     color:  #a5290d;
+   }
+/*end get in tuch section*/
+
+   /*google maps start*/
+/*.google_map{*/
+
+   /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+        width: 100%;
+        margin:0;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+  width: 100%;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+
+  
+
+}
+/*.map_body{*/
+   width: 100%;
+  height: 40vh;
+  margin: 0;
+  
+}
+
+/*.map-responsive{*/
+    overflow:hidden;
+    /*padding-bottom:56.25%;*/
+    position:relative;
+    height:0;
+    padding-bottom: 15%;
+}
+/*.map-responsive iframe{*/
+    left:0;
+    top:0;
+    height:50vh;
+    width:100%;
+    position:absolute;
+    
+}
+
+ /*end google maps*/
+
+
+
+/*Media queries 1
+We use the following media queries in our Less files to create the key breakpoints in our grid system.*/
+
+@media (max-width: 767px) { 
+
+
+   .header_section{
+  margin: 0;
+  padding: 0;
+    width: 100%;
+    height:100vh;
+  /*background: url("https://mdbootstrap.com/images/regular/city/img%20(17).jpg")no-repeat*/
+  background-image: url(image/web5.jpg) ;
+  
+  
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  .navbar-brand h2{
+    /*niche font-family: sans-serfi tag ta newate white colour chole geche, tobe hover ta kaj korteche na */
+    font-family:sans-serif;
+  color: #ff0000;
+   text-align: center;
+   left:39%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+
+}
+.navbar-brand a :hover {
+    text-decoration: none;
+     color: orange;
+}
+.navbar-toggle, .icon-bar {
+    border:2px solid #ff9900;
+    background-color: #006600 ;
+}
+
+ /*.navbar-toggle:hover{*/
+/*.navbar-toggle:focus {*/
+  background-color: #7e7b7b;
+}
+
+/*.navbar-toggle .icon-bar {*/
+  background-color: red;
+
+}
+
+    
+   /*inline-size: 150px padding: 20px ;*/
+
+
+
+.navbar-nav ul, li{
+  /*background-color: black; contact & hotline er back colour*/*/
+  text-align: center;
+  font-size: 20px ;
+  
+  margin: 0;
+}
+.navbar-right ul, li{
+ /*background-color: ;*/
+ text-align: center;
+}
+
+/*header start*/
+.header_content .animated h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 30px ;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #800000;
+  font-family: sans-serif;
+
+}
+.header_content h3{
+  font-size: 20px ;
+  text-align: center;
+   margin: 10px auto;
+   color:#ffffff;
+   font-weight: bold;
+}
+.header_content p{
+  font-size: 20px ;
+  text-align: center;
+   margin: 10px auto;
+    font-weight: bolder;
+    color: #009933;
+
+}
+.header_content .animated hr{
+   border-color: #f05f40;
+  max-width: 55px;
+  border-width: 15px;
+  margin: 5px auto;  
+  overflow: visible;
+}
+  /*service section*/
+
+
+
+/*start aboutus_header section*/
+
+
+.image_3d {
+  margin-top:0px;
+  padding: 10px;
+  width: 100%;
+  height: 20vh;
+  /*height: 30vh;*/
+
+background-image: url("image/body2.jpg");
+background-color: black;
+
+
+  /*height*/
+  min-height: 130px;
+  /*scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /*background-size: auto auto;*/
+  position: relative;
+}
+/*end*/
+
+/*icon text section start*/
+.icon_text {
+  margin:0;
+  width: 100%;
+  height: 15vh;
+  position: relative;
+
+}
+
+.animated_ourproduct{
+   margin: 0px;
+  width: 100%;
+  height: 15vh;
+  
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  padding: 0px;
+
+  background-color: black;
+}
+
+
+.animated_ourproduct .fa-arrow-down {
+   /*margin-left: 100px;*/
+   margin: 0;
+   /*margin-bottom: 0px;*/
+   display: inline block;
+   margin-left: auto;
+   margin-right: auto;
+   /*nicher ta hochee icon er */
+   padding: 10px;
+   /*float: right;*/
+   
+   /*arrow icon take uporer dike nite hole ki korte hobe dekhte hobe */
+}
+.animated_ourproduct h2{
+  margin:0;
+  margin-top: 8px;
+  color: white;
+  font-size:30px bolder;
+  /*border: 2px solid red;*/
+  
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*icon text section end*/
+
+
+/*.aboutus_image2{*/
+  display: left;
+}
+/*.aboutus_image3{*/
+  display: right;
+}
+
+/*our service start*/
+.our_service{
+  margin:0;
+  padding: 0px;
+  width: 100%;
+  height: 40vh;
+}
+.service_image{
+   margin:0;
+  padding: 0px;
+  width: 100%;
+  height: 40vh;
+}
+.service_image  img{
+  margin: 0;
+  margin-top: 0px ;
+
+
+  -moz-box-shadow: 1px 10px 10px 8px     #ff4d4d;
+-webkit-box-shadow: 1px 10px 10px 8px      #ff4d4d;
+-o-box-shadow: 1px 10px 10px 8px     #ff4d4d;
+box-shadow: 1px 10px 10px 8px    #ff4d4d;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=   #ff4d4d,
+
+
+}  
+.our_service img:hover{
+  opacity: 1.5;
+-moz-transform: scale(10.5);
+  -webkit-transform: scale(10.5);
+  transform: scale(10.5);
+  height: 900px;
+  width: 500px;
+}
+/*start image categories project section */
+
+.project_section{
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  height: 60vh;
+  position: relative;*/
+}
+
+.mdb-lightbox{
+margin-top: 20px;
+  margin: 0;
+  padding: 0,
+  width:100%;
+  height: 60vh;
+  position: absolute;*/
+  display: inline-block;
+  border: 2px solid green;
+
+}
+
+/*end- our service image -*/
+
+
+
+/*media quiry 2*/
+@media (min-width: min-width: 768) and (max-width: 991){
+  /*header */
+	.header_content .animated h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 45px ;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+
+  font-family: sans-serif;
+}
+.header_content .animated  hr {
+  /*border-bottom:2px #f05f40 ;*/
+  border-color: red;
+  max-width: 100px;
+  border-width: 10px;
+  margin: 20px auto;  
+  overflow: visible;
+  height: 0;
+}
+
+.header_content h3{
+  
+  margin: 0;
+ color: #ffffff;
+  /*border-bottom: 2px solid #eb3812 ; border button er longer size ta small korbo kivabe */
+  font-family: sans-serif;
+  padding: 15px 0;
+  font-size: 22px ;
+  font-weight: 250;
+  margin-bottom: 30px;
+ max-width: 80%;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 50px;
+text-align: center;
+ font-weight: bolder;
+
+}
+.header_content p{
+  margin: 0;
+  color:#009933;
+  font-size: 22px ;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+/*end header*/
+}
+
+/* media quiry 3*/
+@media (min-width:992) and (max-width: 1199) {
+	
+/*header */
+.header_content .animated h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 45px ;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+
+  font-family: sans-serif;
+
+
+}
+.header_content .animated  hr {
+  /*border-bottom:2px #f05f40 ;*/
+  border-color: red;
+  max-width: 100px;
+  border-width: 10px;
+  margin: 20px auto;  
+  overflow: visible;
+  height: 0;
+}
+
+.header_content h3{
+  
+  margin: 0;
+ color: #ffffff;
+  /*border-bottom: 2px solid #eb3812 ; border button er longer size ta small korbo kivabe */
+  font-family: sans-serif;
+  padding: 15px 0;
+  font-size: 22px ;
+  font-weight: 250;
+  margin-bottom: 30px;
+ max-width: 80%;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 50px;
+text-align: center;
+ font-weight: bolder;
+
+}
+.header_content p{
+  margin: 0;
+  color:#009933;
+  font-size: 22px ;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+
+/*end header*/
+ 
+
+}
+ /*media quiry 4 or last*/
+@media (min-width: 1200px) {
+
+	/*header*/
+.header_content .animated h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 45px ;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+
+  font-family: sans-serif;
+
+
+}
+
+.header_content .animated  hr {
+  /*border-bottom:2px #f05f40 ;*/
+  border-color: red;
+  max-width: 100px;
+  border-width: 10px;
+  margin: 20px auto;  
+  overflow: visible;
+  height: 0;
+}
+
+.header_content h3{
+  
+  margin: 0;
+ color: #ffffff;
+  /*border-bottom: 2px solid #eb3812 ; border button er longer size ta small korbo kivabe */
+  font-family: sans-serif;
+  padding: 15px 0;
+  font-size: 22px ;
+  font-weight: 250;
+  margin-bottom: 30px;
+ max-width: 80%;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 50px;
+text-align: center;
+ font-weight: bolder;
+}
+.header_content p{
+  margin: 0;
+  color:#009933;
+  font-size: 22px ;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+  /*end header*/
+
+       
+}
+
+/*problem navbar color and text ,border buttom , responsive hoyni ,mobile  media and grid
